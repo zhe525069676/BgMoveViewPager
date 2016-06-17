@@ -28,11 +28,12 @@ protected void dispatchDraw(Canvas canvas) {
         //((width - n) / (count - 1)) / getWidth()也就表示ViewPager滑动一个像素时，背景图片滑动的宽度。
         //x * ((width - n) / (count - 1)) / getWidth()也就表示ViewPager滑动x个像素时，背景图片滑动的宽度。
         //背景图片滑动的宽度的宽度可以理解为背景图片滑动到达的位置。
-            int w = (x+getWidth()) * ((width - n) / (count - 1)) / getWidth();
-            canvas.drawBitmap(this.bg, new Rect(w, 0, n + w, height), new Rect(x, 0, x + getWidth(), getHeight()), this.b);
+        int w = (x+getWidth()) * ((width - n) / (count - 1)) / getWidth();
+        canvas.drawBitmap(this.bg, new Rect(w, 0, n + w, height), new Rect(x, 0, x + getWidth(), getHeight()), this.b);
         }
         super.dispatchDraw(canvas);
     }
+}
 ````
 2、IScrollListener中控制是否可以方向滚动
 
