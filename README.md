@@ -1,7 +1,7 @@
 # BgMoveViewPager
 背景图片跟随手势滑动的ViewPager，可各方向滑动或点击切换页面。
 
-效果参考 [ANA Portuguese Airports](https://play.google.com/store/apps/details?id=com.innovagency.ana)（googl play地址）
+效果参考 [ANA Portuguese Airports](https://play.google.com/store/apps/details?id=com.innovagency.ana)（google play地址）
 
 ### 效果图
 
