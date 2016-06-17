@@ -4,7 +4,7 @@
 效果参考 [ANA Portuguese Airports](https://play.google.com/store/apps/details?id=com.innovagency.ana)（google play地址）
 
 #### 效果图
-![效果图](http://7xom0g.com1.z0.glb.clouddn.com/BgMoveViewPager.gif)
+![效果图](http://7xom0g.com1.z0.glb.clouddn.com/BgMove.gif)
 
 #### 组成
 项目由一个Activity和五个fragment组成。
