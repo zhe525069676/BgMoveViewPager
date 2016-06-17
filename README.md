@@ -3,14 +3,14 @@
 
 效果参考 [ANA Portuguese Airports](https://play.google.com/store/apps/details?id=com.innovagency.ana)（google play地址）
 
-### 效果图
+#### 效果图
 
 ![效果图](http://7xom0g.com1.z0.glb.clouddn.com/BgMoveViewPager.gif)
 
-### 组成
+#### 组成
 项目由一个Activity和五个fragment组成。
 
-### 主要代码介绍
+#### 主要代码介绍
 1、横向背景移动的ViewPager中，重写dispatchDraw方法:
 
 ````
@@ -30,9 +30,8 @@ protected void dispatchDraw(Canvas canvas) {
         //背景图片滑动的宽度的宽度可以理解为背景图片滑动到达的位置。
         int w = (x+getWidth()) * ((width - n) / (count - 1)) / getWidth();
         canvas.drawBitmap(this.bg, new Rect(w, 0, n + w, height), new Rect(x, 0, x + getWidth(), getHeight()), this.b);
-        }
-        super.dispatchDraw(canvas);
     }
+    super.dispatchDraw(canvas);
 }
 ````
 2、IScrollListener中控制是否可以方向滚动
@@ -55,11 +54,11 @@ private int mDuration = 800; // 默认为800ms
     }
 ````
 
-###最后
+####最后
 
 如果对您有帮助请Star，有问题随时联系我，谢谢.
 
-###关于我
+####关于我
 QQ交流群: 496946393
 
 邮箱: nh_zhe@163.com
