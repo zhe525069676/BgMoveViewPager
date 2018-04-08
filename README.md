@@ -3,13 +3,13 @@
 
 原效果参考 [ANA Portuguese Airports](https://play.google.com/store/apps/details?id=com.innovagency.ana)（google play地址）
 
-#### 效果图 ####
+### 效果图 ###
 <img src="/gif/BgMove.gif" style="width: 30%;">
 
-#### 组成 ####
+### 组成 ###
 项目由一个Activity和五个fragment组成。
 
-#### 主要代码介绍 ####
+### 主要代码介绍 ###
 1、横向背景移动的ViewPager中，重写dispatchDraw方法:
 
 ````
@@ -53,11 +53,11 @@ private int mDuration = 800; // 默认为800ms
     }
 ````
 
-#### 最后 ####
+### 最后 ###
 
 如果对您有帮助请Star，有问题随时联系我，谢谢.
 
-#### 关于我 ####
+### 关于我 ###
 QQ交流群: 496946393
 
 邮箱: nh_zhe@163.com
